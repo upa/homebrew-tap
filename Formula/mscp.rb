@@ -1,7 +1,7 @@
 class Mscp < Formula
   desc "Transfer files over multiple ssh (sftp) sessions."
   homepage "https://github.com/upa/mscp"
-  license "GPLv3"
+  license "GPL-3.0-only"
   head "https://github.com/upa/mscp.git", branch: "main"
 
   stable do
