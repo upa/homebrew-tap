@@ -5,7 +5,7 @@ class Mscp < Formula
 
   stable do
     url "https://github.com/upa/mscp/releases/download/v0.0.5/mscp-0.0.5.tar.gz"
-    sha256 "a266ecde8063e53ff65ff9b7fb56d1af083d0116682ee650b7ad7956e9266198"
+    sha256 "7ba64d117dcd42e4097cbdd920a120af5834788bbdaaf04a38f50d79867c368f"
   end
 
   depends_on "cmake" => :build
