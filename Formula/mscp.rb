@@ -4,8 +4,8 @@ class Mscp < Formula
   license "GPL-3.0-only"
 
   stable do
-    url "https://github.com/upa/mscp/releases/download/v0.0.6/mscp-0.0.6.tar.gz"
-    sha256 "97e44bd6c81a32b896152a9ee9a0ec88ad655edd4f81ef068aacd3bedfc2aa64"
+    url "https://github.com/upa/mscp/releases/download/v0.0.7/mscp-0.0.7.tar.gz"
+    sha256 "97e25859e3dd0d3e63e9bb60a93ae90178d2e519abd3a3c1ebc6526102cb4257"
   end
 
   depends_on "cmake" => :build
