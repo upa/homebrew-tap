@@ -15,6 +15,7 @@ class Mscp < Formula
            "-DOPENSSL_ROOT_DIR=#{HOMEBREW_PREFIX}/opt/openssl@1.1", *std_cmake_args
     system "cmake", "--build", "build"
     bin.install "build/mscp"
+    man1.install "build/mscp.1"
   end
 
   test do
