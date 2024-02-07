@@ -1,8 +1,8 @@
 class Mscp < Formula
   desc "Transfer files over multiple SSH (SFTP) connections"
   homepage "https://github.com/upa/mscp"
-  url "https://github.com/upa/mscp/releases/download/v0.1.3/mscp-0.1.3.tar.gz"
-  sha256 "2e011673ca428f252ece8b1c1eb7e100ffcd2cf6c59ff334df208d7a23588d82"
+  url "https://github.com/upa/mscp/releases/download/v0.1.4/mscp-0.1.4.tar.gz"
+  sha256 "adb69493bcdff9582e4652092e4dd4c93e62ccae9d469dcdcb79df112fd5a1b8"
   license "GPL-3.0-only"
 
   depends_on "cmake" => :build
