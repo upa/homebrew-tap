@@ -1,0 +1,19 @@
+name: test on macOS
+
+on:
+  push:
+    branches: [ "main", "dev" ]
+  pull_request:
+    branches: [ "main", "dev" ]
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: uninstall openssl@1.1
+      run: brew uninstall -f openssl@1.1
+
+    - name: install mscp
+      run: brew reinstall --build-from-source --debug ${{github.workspace}}/Formula/mscp.rb
